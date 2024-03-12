@@ -1,7 +1,7 @@
 // Get the HTML element where you want to display the time difference
 const timeElement = document.getElementById('time-difference');
 
-// Create a function to update the time difference
+// Create a function to update the time difference and title
 function updateTimeDifference() {
   // Get the current date and time
   const currentDate = new Date();
@@ -36,6 +36,9 @@ function updateTimeDifference() {
 
   // Update the innerHTML of the element to show the time difference
   timeElement.innerHTML = `${timeString}`;
+
+  // Update the title of the webpage with the current time and time difference
+  document.title = `${timeString} | Longest Call`;
 }
 
 // Call the updateTimeDifference function every 1 second
