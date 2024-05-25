@@ -1,7 +1,7 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
     
-    .headingthing {
+.headingthing {
        margin: 0;
        position: absolute;
        top: 20%;
@@ -18,6 +18,9 @@
        font-family: 'Lexend Deca', sans-serif;
        box-shadow: 0px 0px 20px black;
 }
+
+
+
 
 body {
 
